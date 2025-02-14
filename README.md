@@ -1,14 +1,14 @@
-# Criptocurrency Prediction Binance
+# Cryptocurrency Prediction Binance
 
-Este projeto utiliza dados históricos da Binance para prever o preço de abertura do Bitcoin (BTC) em relação ao Tether (USDT) usando uma rede neural LSTM.
+This project uses historical data from Binance to predict the opening price of Bitcoin (BTC) against Tether (USDT) using an LSTM neural network.
 
-## Estrutura do Projeto
+## Project Structure
 
-- `CriptocurrencyPredictionBinance.py`: Script principal que coleta dados, processa-os e treina um modelo LSTM para prever o preço de abertura do Bitcoin.
+- `CryptocurrencyPredictionBinance.py`: Main script that collects data, processes it and trains an LSTM model to predict the opening price of Bitcoin.
 
-## Dependências
+## Dependencies
 
-Certifique-se de ter as seguintes bibliotecas instaladas:
+Make sure you have the following libraries installed:
 
 - `os`
 - `json`
@@ -19,7 +19,7 @@ Certifique-se de ter as seguintes bibliotecas instaladas:
 - `pandas`
 - `sklearn`
 
-Você pode instalar todas as dependências usando o seguinte comando:
+You can install all dependencies using the following command:
 
 ```sh
 pip install -r requirements.txt
